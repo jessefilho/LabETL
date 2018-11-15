@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_-lm70edDEein1oyqVXbg9g" name="Excel_InscritsM2" dataPackage="_-lm70udDEein1oyqVXbg9g" Server="Localhost 127.0.0.1" FilePath="C:/Users/AkIn/Desktop/TDnote/suivi-inscrits-anonymise.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="M2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="M2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_-lm70udDEein1oyqVXbg9g" name="default" dataManager="_-lm70edDEein1oyqVXbg9g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-lm70-dDEein1oyqVXbg9g" id="_3e4wwOdDEein1oyqVXbg9g" label="metadata_excel_InscritsM2">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm71OdDEein1oyqVXbg9g" label="Annee" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm71edDEein1oyqVXbg9g" label="N_Etudiant" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm71udDEein1oyqVXbg9g" label="Nom" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm71-dDEein1oyqVXbg9g" label="Prenom" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm72OdDEein1oyqVXbg9g" label="Genre" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm72edDEein1oyqVXbg9g" label="Nationalite" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm72udDEein1oyqVXbg9g" label="Statut_particulier" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm72-dDEein1oyqVXbg9g" label="Type_candidature" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm73OdDEein1oyqVXbg9g" label="Dernier_diplome" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm73edDEein1oyqVXbg9g" label="Origine_geo" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-lm73udDEein1oyqVXbg9g" label="Etablissement" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_tl4SAOdIEeifepbmKmSenw" name="Excel_DernierDiplome" dataPackage="_tl4SAedIEeifepbmKmSenw" Server="Localhost 127.0.0.1" FilePath="C:/Users/AkIn/Desktop/TDnote/description.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Dernier diplôme" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Dernier diplôme:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tl4SAedIEeifepbmKmSenw" name="default" dataManager="_tl4SAOdIEeifepbmKmSenw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tl4SAudIEeifepbmKmSenw" id="_oaMQQOdIEeifepbmKmSenw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SA-dIEeifepbmKmSenw" label="Id_diplome" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SBOdIEeifepbmKmSenw" label="Diplome" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SBedIEeifepbmKmSenw" label="Description" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SBudIEeifepbmKmSenw" label="Id_type" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SB-dIEeifepbmKmSenw" label="Type_diplome" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SCOdIEeifepbmKmSenw" label="Id_niveau" length="-1" precision="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tl4SCedIEeifepbmKmSenw" label="Niveau_diplome" length="100" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
